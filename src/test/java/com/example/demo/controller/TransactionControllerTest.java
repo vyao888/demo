@@ -107,7 +107,7 @@ public class TransactionControllerTest {
       .accountId("1")
       .transactionDate(LocalDateTime.now())
       .amount(new BigDecimal("1000.00"))
-      .description("debit purchansing iphone")
+      .description("debit purchasing iphone")
       .method("debig").build();
   }
 
